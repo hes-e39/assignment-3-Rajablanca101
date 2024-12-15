@@ -10,6 +10,7 @@ export default ({ mode }) => {
     const splitHomepage = packageJSON.homepage.split('/');
     const base = !isDev ? `/${splitHomepage[splitHomepage.length - 2]}/` : '/';
 
+    
     return defineConfig({
         base,
         plugins: [

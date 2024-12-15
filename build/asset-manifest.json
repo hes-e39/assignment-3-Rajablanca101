@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CSCI-E39-A2/static/css/main.56105761.css",
+    "main.js": "/CSCI-E39-A2/static/js/main.1870d35b.js",
+    "index.html": "/CSCI-E39-A2/index.html",
+    "main.56105761.css.map": "/CSCI-E39-A2/static/css/main.56105761.css.map",
+    "main.1870d35b.js.map": "/CSCI-E39-A2/static/js/main.1870d35b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56105761.css",
+    "static/js/main.1870d35b.js"
+  ]
+}

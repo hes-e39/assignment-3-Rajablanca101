@@ -1,0 +1,25 @@
+.total-workout-container {
+  background-color: #1a365d;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: fit-content;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.total-time-label {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: #90cdf4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.total-time {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.display-time-container {
+  font-family: 'Roboto Mono', monospace;
+  border: 1px solid black;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 1.5rem; /* Main text size */
+  background-color: #269aff; /* Light blue background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: white;
+}
+
+
+.display-time-uservalue {
+  font-size: 1rem; /* Slightly smaller for the user value */
+  color: rgb(197, 229, 255); /* Neutral color for secondary text */
+  margin-top: 5px;
+}

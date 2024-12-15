@@ -1,0 +1,22 @@
+.edit-button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+.edit-button:hover {
+  background-color: #357abd;
+  transform: translateY(-1px);
+}
+
+
+.edit-button:active {
+  transform: translateY(1px);
+}
