@@ -1,0 +1,12 @@
+.configure-view-container {
+  display: flex;
+  border: 1px solid black;
+  width: 500px;
+  height: 75px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.global-controls {
+  margin-top: 25px;
+}

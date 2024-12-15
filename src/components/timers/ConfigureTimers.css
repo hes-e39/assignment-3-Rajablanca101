@@ -1,0 +1,53 @@
+.configure-timers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.configure-timer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.configure-timer-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2d3748;
+}
+
+
+.configure-timer-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #b02a37;
+  transform: translateY(-1px);
+}
+
+.btn-danger:active {
+  transform: translateY(1px);
+}
