@@ -1,0 +1,53 @@
+.controls-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.controls-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Success button style */
+.controls-button.start {
+  background-color: #28a745; /* Green */
+  color: white;
+}
+
+.controls-button.start:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Warning button style */
+.controls-button.pause {
+  background-color: #ffc107; /* Yellow */
+  color: black;
+}
+
+.controls-button.pause:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+}
+
+/* Danger button style */
+.controls-button.reset {
+  background-color: #02b0c7; /* Red */
+  color: white;
+}
+
+.controls-button.reset:hover {
+  background-color: #007d8d; /* Red */
+  transform: scale(1.05);
+}

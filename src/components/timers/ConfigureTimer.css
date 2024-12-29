@@ -1,0 +1,78 @@
+.configure-timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 4rem;
+  background-color: #d0fdd1;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.configure-timer-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 2rem;
+}
+
+.configure-timer-buttons-row {
+  display: flex;
+  gap: 10px;
+}
+
+
+.btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  width: 200px; /* Ensures all buttons are the same width */
+  text-align: center;
+}
+
+/* Specific shades of crimson for each button */
+.btn-stopwatch {
+  background-color: #9387fa; /* Crimson */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-stopwatch:hover {
+  background-color: #000000;
+}
+
+.btn-countdown {
+  background-color: #8053fc; /* Lighter crimson */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-countdown:hover {
+  background-color: #000000;
+}
+
+.btn-xy {
+  background-color: #5c2ddd; /* Light coral */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-xy:hover {
+  background-color: #000000;
+}
+
+.btn-tabata {
+  background-color: #3e19a1; /* Salmon */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-tabata:hover {
+  background-color: #000000;
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: 'Roboto Mono', monospace;
+}
